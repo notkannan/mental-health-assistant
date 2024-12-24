@@ -1,6 +1,6 @@
 # Mental Health Assistant
 
-A Mental Health Assistant application built with NextJS and Flask.
+A Mental Health Assistant built with NextJS and Flask.
 
 ## Prerequisites
 
