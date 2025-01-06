@@ -17,7 +17,7 @@ export default function Home() {
 
         } catch (error) {
             console.error(error);
-            setMessage('Error occurred while generating response.');
+            setMessage('Error occurred while generating response');
         }
     };
 
