@@ -25,7 +25,7 @@ export default function Home() {
       <main className="h-screen bg-[#f8f4e4] flex flex-col px-20 pt-20">
       <div className="mb-8">
         <h1 className="text-7xl font-semibold text-gray-800 font-pfdisplay">
-          Mental Health Assistant
+          Mental Health Assistant 🧠 ⚡️
         </h1>
         <h3 className="m-1 text-lg font-light text-gray-900 font-geist">
           Welcome fellow therapist, get started by describing the problem that the patient is facing
