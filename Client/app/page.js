@@ -28,7 +28,7 @@ export default function Home() {
           Mental Health Assistant 🧠 ⚡️
         </h1>
         <h3 className="m-1 text-lg font-light text-gray-900 font-geist">
-          Welcome fellow therapist, get started by describing the problem that the patient is facing
+          Welcome Doc, get started by describing the problem that the patient is facing
         </h3>
       </div>
 
