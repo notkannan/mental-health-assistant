@@ -39,7 +39,7 @@ export default function Home() {
             placeholder="Enter a name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="flex-1 p-3 border border-gray-300 rounded-[40px] focus:outline-none focus:ring-2 focus:ring-teal-500"
+            className="flex-1 p-3 border border-gray-300 rounded-[40px] focus:outline-none focus:ring-2 focus:ring-teal-600"
           />
           <button
             type="submit"
