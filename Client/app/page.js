@@ -16,7 +16,7 @@ export default function Home() {
         setError('');
 
         try {
-            const response = await axios.post('http://127.0.0.1:5000/predict', { name }, {
+            const response = await axios.post('http://127.0.0.1:8000/predict', { name }, {
                 headers: { 'Content-Type': 'application/json' }
             });
             setMessage(response.data.message);
