@@ -14,7 +14,7 @@ load_dotenv()
 secret_key = os.getenv('OPEN_AI_API_KEY')
 client = OpenAI(api_key=secret_key)
 
-CORS(app, origins=["http://localhost:3000"])
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 @app.route('/health', methods=['GET'])
@@ -69,4 +69,4 @@ def predict():
         return jsonify({"error": str(e)}), 500
     
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
